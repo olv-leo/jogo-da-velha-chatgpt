@@ -8,7 +8,7 @@ let gameIsRunning = 1;
 
 const homeButton = document.querySelector("#home-container");
 homeButton.addEventListener("click", () => {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
   });
 
 for (let i = 0; i < squares.length; i++) {
